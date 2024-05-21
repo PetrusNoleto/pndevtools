@@ -13,7 +13,7 @@ interface projectBoxProps{
 const ProjectBox:React.FC<projectBoxProps> = ({projectBoxColor,projectBoxImage,projectBoxName,projectBoxDescription})=>{
     return(    
         
-            <Link href={`/tools/${projectBoxName}`} className=" flex flex-col border w-72 h-80 shadow-lg rounded-lg hover:shadow-2xl transition-all duration-300">
+            <Link href={`/tools/${projectBoxName}`} className=" flex flex-col border lg:w-72 h-80 shadow-lg rounded-lg hover:shadow-2xl transition-all duration-300">
                 <div style={{ backgroundColor: projectBoxColor }} className={`w-full h-32  rounded-t-lg `}>
                 </div>
                 <div className="relative p-3">

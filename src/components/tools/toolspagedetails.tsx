@@ -1,13 +1,12 @@
 "use client";
 
-import { getPageName } from "@/app/functions/getPageName";
+import { getPageName } from "@/functions/getPageName";
 import { tools } from "@/staticdata/tools";
 import { toolsLibraryTypes, toolsTecnologiesTypes, toolsTypes } from "@/types/tools";
 import PageWraper from "../wraper/pagewraper";
 import Header from "../header/header";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import Link from "next/link";
 
 const ToolsPageDetails = () => {
   let allToolsList = [];
@@ -42,10 +41,10 @@ const ToolsPageDetails = () => {
           <section className="">
             <div
               style={{ backgroundColor: findToolData?.toolBoxColor }}
-              className={`w-full h-72  rounded-t-lg `}
+              className={`lg:w-full h-72  rounded-t-lg `}
             ></div>
-           <div className="flex justify-between items-center">
-            <div className="relative p-3">
+           <div className="flex justify-between items-center p-3 ">
+            <div className="relative ">
                 <div className="absolute -top-16 bg-white rounded-full flex justify-center items-center drop-shadow-lg">
                     <div className="relative w-32 h-32">
                     <Image

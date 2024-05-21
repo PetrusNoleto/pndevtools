@@ -19,20 +19,22 @@ const HomepageComponent = () => {
       <PageWraper>
         <Header />
         <main className="">
-          <div className="flex flex-col gap-6 items-center py-20">
-            <h1 className="text-6xl first-letter:capitalize font-semibold text-center drop-shadow-lg select-none ">
+          <div className="flex flex-col gap-6 items-center py-20 px-1">
+            <h1 className="text-4xl lg:text-6xl first-letter:capitalize font-semibold text-center drop-shadow-lg select-none ">
               ferramentas open-source <br />
               para seu software
             </h1>
-            <h2 className="text-2xl select-none font-light">
+            <h2 className="text-sm  lg:text-xl select-none font-light">
               Descubra ferramentas que facilitarão <br /> o desenvolvimento dos
               seus projetos
             </h2>
+            {/* 
             <input
               type="text"
               placeholder="procurar ferramenta"
               className="text-xs w-[480px] border p-3 rounded-lg focus:drop-shadow-lg outline-none focus:border-black transition-all duration-300"
             />
+            */}
           </div>
           <div className="w-full flex justify-center">
             {toolsList.length > 0 ? (
