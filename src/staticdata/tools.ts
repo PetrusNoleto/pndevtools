@@ -12,4 +12,17 @@ export const tools = [
     toolLibrary: [],
     toolVerstion: "1.0.0",
   },
+  {
+    toolid: 2,
+    toolName: "fakehumandatabase-beta",
+    toolDescription:
+      "ferramenta de simulação de dados pessoais falsos, criado para testar sistemas que precisam de varios usuarios",
+    toolAddress: "https://fakehumandatabase.vercel.app/",
+    toolPhotoLink: "/app/brand.jpeg",
+    toolGitHubLink:"https://github.com/PetrusNoleto/fakehumandatabaseweb",
+    toolTecnologies: [{tecnologieId:1,tecnologieName:"typescript"}, {tecnologieId:2,tecnologieName:"nextJS"}],
+    toolBoxColor: "#889453",
+    toolLibrary: [{libraryId:1,libraryName:"axios"},{libraryId:2,libraryName:"randomuser (api)"}],
+    toolVerstion: "1.0.0",
+  },
 ];
